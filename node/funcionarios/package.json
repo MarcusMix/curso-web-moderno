@@ -1,0 +1,21 @@
+{
+  "name": "funcionarios",
+  "version": "1.0.0",
+  "description": "gosto de tetas",
+  "main": "outro.js",
+  "scripts": {
+    "test": "aaaa"
+  },
+  "repository": {
+    "type": "git",
+    "url": "kkkkkkkkkkkkk"
+  },
+  "keywords": [
+    "op"
+  ],
+  "author": "marcus lindo",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}

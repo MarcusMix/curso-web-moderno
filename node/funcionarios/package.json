@@ -2,9 +2,9 @@
   "name": "funcionarios",
   "version": "1.0.0",
   "description": "gosto de tetas",
-  "main": "outro.js",
+  "main": "funcionarios.js",
   "scripts": {
-    "test": "aaaa"
+    "start": "nodemon"
   },
   "repository": {
     "type": "git",

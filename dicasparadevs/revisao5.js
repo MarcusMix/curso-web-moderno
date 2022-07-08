@@ -17,13 +17,6 @@ let {nome, sobrenome, idade, hobbies} = pessoa;
 // let hobbies = pessoa.hobbies;
  let ler = pessoa.hobbies[2];
 
-console.log(nome);
-console.log(sobrenome);
-console.log(idade);
-console.log(hobbies);
-console.log(ler);
-console.log(pessoa.dog);
-console.log(pessoa.dog.idade);
 
 let toDoList = [
     {
@@ -43,8 +36,11 @@ let toDoList = [
     },
 ];
 
-// const descricaoUltimoToDoList = toDoList[2].descricao;
-// console.log(descricaoUltimoToDoList);
+// transformar objeto para JSON
+const toDoJSON = JSON.stringify(toDoList);
+console.log(toDoJSON);
 
-
+// transformar JSON para objeto
+const toDo = JSON.parse(toDoJSON);
+console.log(toDo);
 

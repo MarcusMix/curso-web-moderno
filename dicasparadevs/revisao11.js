@@ -73,3 +73,10 @@ console.log(even);
 //dobrando, multiplicando por 2
 const double = array.map(v => v * 2);
 console.log(double);
+
+
+function calcular (p) {
+    return p * 100;
+} 
+
+console.log(calcular(10));

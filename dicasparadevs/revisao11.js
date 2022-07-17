@@ -80,3 +80,8 @@ function calcular (p) {
 } 
 
 console.log(calcular(10));
+
+let nome = marcus;
+function ola (nome) {
+    return `${nome} gi`;
+}

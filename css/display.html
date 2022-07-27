@@ -5,19 +5,61 @@
     <meta charset="UTF-8">
     <title>Display</title>
     <style>
-        /* ... */
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            font-size: 40px;
+            color: white;
+            background-color: coral;
+        }
+
+        ul {
+            padding: 0;
+        }
+
+        div {
+            background-color: seagreen;
+        }
+
+        span {
+            background-color: dodgerblue;
+        }
+
+        li {
+            background-color: purple;
+        }
+
+        div, span, li {
+            /* width: 50%; */
+            width: 200px;
+            /* height: 200px; */
+            /* padding: 30px; */
+            padding: auto;
+            text-align: center;
+            display: inline-block;
+            margin: 10px;
+        }
+
+        a:hover, li:hover {
+            background-color: plum;
+            
+        }
     </style>
 </head>
 
 <body>
+    <ul>
+        <li><a href="https://github.com/MarcusMix" target="_blank">Home</a></li>
+        <li><a href="https://github.com/MarcusMix" target="_blank" >Site</a></li>
+        <li><a href="https://github.com/MarcusMix" target="_blank" >Contato</a></li>
+    </ul>
+
     <div>Texto 1</div>
     <span>Texto 2</span>
     <span>Texto 3</span>
-    <ul>
-        <li>Item 1</li>
-        <li>Item 2</li>
-        <li>Item 3</li>
-    </ul>
 </body>
 
 </html>

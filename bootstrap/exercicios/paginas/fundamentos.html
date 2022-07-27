@@ -43,13 +43,16 @@
    
 
     <!-- Cores -->
+    
     <h1 class="mt-5">3. Cores -
         <small>
             <a href="https://getbootstrap.com/docs/4.0/utilities/colors/" target="_black">Documentação Oficial</a>
         </small>
     </h1>
     <hr>
-
+    <div class="my-1 p-3 bg-primary text-light">1</div>
+    <div class="my-1 p-3 bg-danger text-white">2</div>
+    <div class="my-1 p-3 bg-warning text-sucess">30</div>
     <h1 class="mt-5">4. Flex -
         <small>
             <a href="https://getbootstrap.com/docs/4.0/utilities/flex/" target="_black">Documentação Oficial</a>
@@ -58,6 +61,26 @@
     <hr>
 
     <!-- Flex -->
+    <div class="d-flex justify-content-start">
+        <div class="p-2 flex-row">teste</div>
+        <div class="p-2 flex-row">teste2</div>
+        <div class="p-2 flex-row">teste3</div>
+    </div>
+
+    <div class="d-sm-flex-column m-3">
+        <div class="align-self-end p-2">Home</div>
+        <div class="align-self-center  p-2">Sobre Nós</div>
+        <div class="align-self-start  p-2">Contato</div>
+    </div>
+    
+    
+    
+    <div class="d-sm-flex flex-column-reverse p-2">
+        <div class="align-self-end bg-primary"><a href="https://github.com/MarcusMix" target="_blank">1</a></div>
+        <div class="align-self-center bg-primary">2</div>
+        <div class="align-self-start bg-primary">3</div>
+    </div>
+
 
     <h1 class="mt-5">5. Imagens -
         <small>
@@ -67,7 +90,11 @@
     <hr>
 
     <!-- Imagens -->
-
+    <div class="p-2">
+        <img src="./imgs/img1.png" alt="Imagem 1" class="mx-auto d-block" width="400">
+        <img src="./imgs/img1.png" alt="Imagem 1" class="mx-auto d-block img-thumbnail" width="400" >
+        <img src="./imgs/img1.png" alt="Imagem 1" class="mx-auto d-block img-fluid rounded-circle" height="auto">
+    </div>
     <h1 class="mt-5">6. Float -
         <small>
             <a href="https://getbootstrap.com/docs/4.0/utilities/float/" target="_black">Documentação Oficial</a>
@@ -76,6 +103,9 @@
     <hr>
 
     <!-- Float -->
+    <div class="my-1 p-3 float-left">1</div>
+    <div class="my-1 p-3 float-right">2</div>
+    <div class="my-1 p-3 float-lg-right">3</div>
 </div>
 
 <style>

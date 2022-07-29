@@ -20,6 +20,18 @@
             border: solid 5px dodgerblue;
             background: #fff;
         }
+
+        body {
+            display: grid;
+            grid-template-rows: repeat(3, 1fr);
+            row-gap: 20px;
+            gap: 50px;
+        }
+
+        .d1 {
+            grid-row: 1 / span 2;
+            grid-area: 1;
+        }
     </style>
 </head>
 

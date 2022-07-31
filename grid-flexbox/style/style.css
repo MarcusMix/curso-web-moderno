@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +12,6 @@ a {
     text-decoration: none;
     color: white;
 }
-
 
 body {
     margin-bottom: 100px;
@@ -56,7 +57,7 @@ img {
 
 }
 
-/* CSS FLEXBOX 1 */
+/* CSS Flexbox  */
 
 .flex {
     display: flex;
@@ -70,7 +71,7 @@ img {
     margin: 10px;
 }
 
-/* CSS GRID 1 */
+/* CSS Grid 1 */
 
 .grid1 {
     display: grid;
@@ -142,7 +143,7 @@ img {
     }
 }
 
-/* SECTION GRID 2  */
+/* CSS Grid 2  */
 
 .grid3 {
     display: grid;

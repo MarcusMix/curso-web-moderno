@@ -15,6 +15,12 @@ a {
 body {
     margin-bottom: 100px;
 }
+
+#logo {
+    width: 50px;
+    border-radius: 50%;
+}
+
 h1 {
     text-align: center;
     margin-top: 100px;

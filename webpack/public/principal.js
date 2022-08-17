@@ -9,6 +9,17 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/assets/css/estilo.css":
+/*!***********************************!*\
+  !*** ./src/assets/css/estilo.css ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://capitulo-webpack/./src/assets/css/estilo.css?");
+
+/***/ }),
+
 /***/ "./src/modulos/moduloA.js":
 /*!********************************!*\
   !*** ./src/modulos/moduloA.js ***!
@@ -45,7 +56,7 @@ eval("// export default \r\nmodule.exports = class Pessoa {\r\n    cumprimentar(
   \**************************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("const Pessoa = __webpack_require__(/*! ./pessoa */ \"./src/pessoa.js\")\r\nconst moduloB = __webpack_require__(/*! ./modulos/moduloA */ \"./src/modulos/moduloA.js\")\r\n// import Pessoa from './pessoa';\r\n\r\nconst atendente = new Pessoa\r\nconsole.log(atendente.cumprimentar())\r\n\n\n//# sourceURL=webpack://capitulo-webpack/./src/principal.js?");
+eval("const Pessoa = __webpack_require__(/*! ./pessoa */ \"./src/pessoa.js\")\r\nconst moduloB = __webpack_require__(/*! ./modulos/moduloA */ \"./src/modulos/moduloA.js\")\r\nconst css = __webpack_require__(/*! ./assets/css/estilo.css */ \"./src/assets/css/estilo.css\")\r\n// import css from './assets/css/estilo.css'\r\n\r\nconst atendente = new Pessoa\r\nconsole.log(atendente.cumprimentar())\r\n\n\n//# sourceURL=webpack://capitulo-webpack/./src/principal.js?");
 
 /***/ })
 
@@ -74,6 +85,18 @@ eval("const Pessoa = __webpack_require__(/*! ./pessoa */ \"./src/pessoa.js\")\r\
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
 /******/ 	}
+/******/ 	
+/************************************************************************/
+/******/ 	/* webpack/runtime/make namespace object */
+/******/ 	(() => {
+/******/ 		// define __esModule on exports
+/******/ 		__webpack_require__.r = (exports) => {
+/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 			}
+/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 		};
+/******/ 	})();
 /******/ 	
 /************************************************************************/
 /******/ 	

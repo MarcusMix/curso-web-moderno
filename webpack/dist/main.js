@@ -9,6 +9,26 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/modulos/moduloA.js":
+/*!********************************!*\
+  !*** ./src/modulos/moduloA.js ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("const moduloB = __webpack_require__(/*! ./moduloB */ \"./src/modulos/moduloB.js\")\r\n\r\nconsole.log(moduloB.saudacao())\n\n//# sourceURL=webpack://capitulo-webpack/./src/modulos/moduloA.js?");
+
+/***/ }),
+
+/***/ "./src/modulos/moduloB.js":
+/*!********************************!*\
+  !*** ./src/modulos/moduloB.js ***!
+  \********************************/
+/***/ ((module) => {
+
+eval("module.exports = {\r\n    saudacao() { return 'Olá sou o modulo B'}\r\n}\n\n//# sourceURL=webpack://capitulo-webpack/./src/modulos/moduloB.js?");
+
+/***/ }),
+
 /***/ "./src/pessoa.js":
 /*!***********************!*\
   !*** ./src/pessoa.js ***!
@@ -25,7 +45,7 @@ eval("// export default \r\nmodule.exports = class Pessoa {\r\n    cumprimentar(
   \**************************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("const Pessoa = __webpack_require__(/*! ./pessoa */ \"./src/pessoa.js\")\r\n// import Pessoa from './pessoa';\r\n\r\nconst atendente = new Pessoa\r\nconsole.log(atendente.cumprimentar())\r\n\n\n//# sourceURL=webpack://capitulo-webpack/./src/principal.js?");
+eval("const Pessoa = __webpack_require__(/*! ./pessoa */ \"./src/pessoa.js\")\r\nconst moduloB = __webpack_require__(/*! ./modulos/moduloA */ \"./src/modulos/moduloA.js\")\r\n// import Pessoa from './pessoa';\r\n\r\nconst atendente = new Pessoa\r\nconsole.log(atendente.cumprimentar())\r\n\n\n//# sourceURL=webpack://capitulo-webpack/./src/principal.js?");
 
 /***/ })
 

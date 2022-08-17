@@ -1,3 +1,6 @@
 body {
-    background-color: red;
+    background-color: rgb(0, 238, 255);
+    background-image: url('../imgs/CC.png');
+    background-repeat: no-repeat;
+    background-position: center;
 }
